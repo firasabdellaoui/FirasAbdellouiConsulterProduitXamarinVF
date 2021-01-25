@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConsulterProduit.View.ConsulterProduits"
+             xmlns:VM ="clr-namespace:ConsulterProduit.ModelView"
+             >
+    <ContentPage.Resources>
+
+        <Style x:Key="labelStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="Blue"></Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+      <StackLayout>
+            <Label  Text="Consulter Produits" />
+
+            <Picker Title="Sélectionner votre category"
+                ItemsSource="{Binding Produits}"
+    ItemDisplayBinding="{Binding Nom}"
+                    SelectedItem="{Binding SelectCategory}"
+    />
+            <ListView  Grid.Row="1" ItemsSource="{Binding Produits}"  HasUnevenRows="True">
+
+                <ListView.ItemTemplate >
+
+                    <DataTemplate >
+                        <!--<TextCell Text="{Binding Nom}"
+                              Detail="{Binding Description}" />-->
+                        <ViewCell>
+
+                            <Grid>
+
+                                <Label Text="{Binding Id}" Grid.Row="0" Grid.Column="0"/>
+                                <Label Text="{Binding Nom}" Grid.Row="1" Grid.Column="0"/>
+                                <Label Text="{Binding Description}" Grid.Row="2" Grid.Column="0" />
+                                <Label Text="{Binding Disponible}" Grid.Row="3" Grid.Column="0"/>
+                                <!--<Button Command="{Binding Delete}"/>-->
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label Text="Id:" Style="{StaticResource labelStyle}"/>
+            <Label  Text=""/>
+
+            <Label Text="Nom:" Style="{StaticResource labelStyle}"/>
+            <Label Text="{Binding Category}"/>
+            <Label Text="Description:" Style="{StaticResource labelStyle}"/>
+                <Label Text=""/>
+            <Label Text="Disponible:" Style="{StaticResource labelStyle}"/>
+            <Switch IsToggled="{Binding Disponible,Mode=TwoWay}"></Switch>
+            <Label Text=""/>
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

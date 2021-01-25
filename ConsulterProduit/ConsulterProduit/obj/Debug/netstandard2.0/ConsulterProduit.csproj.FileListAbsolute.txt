@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\bin\Debug\netstandard2.0\ConsulterProduit.deps.json
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\bin\Debug\netstandard2.0\ConsulterProduit.dll
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\ConsulterProduit.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\View\ConsulterProduits.xaml.g.cs
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\ConsulterProduit.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\ConsulterProduit.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\ConsulterProduit.dll
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\ref\ConsulterProduit.dll
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\ConsulterProduit.pdb
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\bin\Debug\netstandard2.0\ref\ConsulterProduit.dll
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\bin\Debug\netstandard2.0\ConsulterProduit.pdb
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\ConsulterProduit.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ConsulterProduit\ConsulterProduit\ConsulterProduit\obj\Debug\netstandard2.0\XamlC.stamp
